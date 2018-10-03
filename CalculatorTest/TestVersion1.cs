@@ -16,7 +16,7 @@ namespace CalculatorTest
             Assert.AreEqual(104.75, Calculator.Add(98.0, 6.75));
             Assert.AreEqual(208.2, Calculator.Add(148.3, 59.9), delta);
         }
-
+        
         [TestMethod]
         public void TestSubtract()
         {
