@@ -57,6 +57,17 @@ namespace CalculatorLibrary
 
             return resultat;
         }
+
+        public static int Sum(double[] numbers)
+        {
+            double sum = 0;
+            for(int i = 0; i < numbers.Length; i++)
+            {
+                sum += numbers[i];
+            }
+            return sum;
+        }
+
         public static double Add(double v1, double v2)
         {
             return v1 + v2;
