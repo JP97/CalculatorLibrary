@@ -8,6 +8,9 @@ namespace CalculatorLibrary
 {
     public class Calculator
     {
-
+        public static double Add(double v1, double v2)
+        {
+            return v1 + v2;
+        }
     }
 }
