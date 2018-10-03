@@ -8,17 +8,15 @@ namespace CalculatorLibrary
 {
     public class Calculator
     {
+
         public double Multiply(double tal1, double tal2)
         {
 
-            double result = tal1 * tal2;
-
-            return result;
+            return tal1 * tal2;
         }
         public double Divide(double tal1, double tal2)
         {
-            double result = tal1 / tal2;
-            return result;
+            return tal1 / tal2;
         }
         public double Minimum(double[] numbers)
         {
@@ -46,7 +44,7 @@ namespace CalculatorLibrary
             }
             return result;
         }
-        
+
         public double Average(double[] numbers)
         {
             double result = 0;
@@ -56,9 +54,18 @@ namespace CalculatorLibrary
                 result = result + numbers[i];
             }
             double resultat = result / numbers.Length;
-            
+
             return resultat;
         }
+        public static double Add(double v1, double v2)
+        {
+            return v1 + v2;
 
+        }
+
+        public static double Subtract(double v1, double v2)
+        {
+            return v1 - v2;
+        }
     }
 }
