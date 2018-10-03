@@ -9,16 +9,16 @@ namespace CalculatorLibrary
     public class Calculator
     {
 
-        public double Multiply(double tal1, double tal2)
+        public static double Multiply(double v1, double v2)
         {
 
-            return tal1 * tal2;
+            return v1 * v2;
         }
-        public double Divide(double tal1, double tal2)
+        public static double Divide(double tal1, double tal2)
         {
             return tal1 / tal2;
         }
-        public double Minimum(double[] numbers)
+        public static double Minimum(double[] numbers)
         {
             
 
@@ -31,7 +31,7 @@ namespace CalculatorLibrary
             }
             return numbers[0];
         }
-        public double Maximum(double[] numbers)
+        public static double Maximum(double[] numbers)
         {
             double result = 0;
             for (int i = 0; i < numbers.Length; i++)
@@ -45,7 +45,7 @@ namespace CalculatorLibrary
             return result;
         }
 
-        public double Average(double[] numbers)
+        public static double Average(double[] numbers)
         {
             double result = 0;
 
