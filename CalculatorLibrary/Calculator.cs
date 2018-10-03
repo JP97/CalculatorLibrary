@@ -58,7 +58,7 @@ namespace CalculatorLibrary
             return resultat;
         }
 
-        public static int Sum(double[] numbers)
+        public static double Sum(double[] numbers)
         {
             double sum = 0;
             for(int i = 0; i < numbers.Length; i++)
